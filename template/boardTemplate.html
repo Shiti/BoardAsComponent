@@ -1,0 +1,23 @@
+<div>
+    <div class="cnvs">
+        <canvas class="board">
+            This text is displayed if your browser does not support HTML5 Canvas.
+        </canvas>
+        <canvas class="tempImg" data-ng-mousedown="startDrawing($event)"
+                data-ng-mouseup="endDrawing($event)" data-ng-mousemove="draw($event)"
+                data-ng-mouseout="endDrawing($event)">
+        </canvas>
+    </div>
+
+    <ul class="toolbar">
+        Toolbar
+        <li data-ng-click="selectTool($event.target)" class="tools pencil"></li>
+        <li data-ng-click="selectTool($event.target)" class="tools rect"></li>
+        <li data-ng-click="selectTool($event.target)" class="tools line"></li>
+        <li data-ng-click="selectTool($event.target)" class="tools circle"></li>
+        <li data-ng-click="selectTool($event.target)" class="tools brush"></li>
+        <li data-ng-click="selectTool($event.target)" class="tools cursor selected"></li>
+        <li data-ng-click="selectTool($event.target)" class="tools eraser"></li>
+        <li data-ng-click="selectTool($event.target)" class="tools clearAll"></li>
+    </ul>
+</div>

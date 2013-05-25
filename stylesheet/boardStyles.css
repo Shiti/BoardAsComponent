@@ -1,0 +1,83 @@
+*
+{
+    margin:0px;
+    padding:0px;
+}                              
+.cnvs
+{
+    float:left;
+}
+
+.board
+{
+    border:1px solid black;
+}
+
+.tempImg
+{	top:0;
+    position:absolute;
+    left:0;
+    border:1px solid black;
+}
+
+.toolbar
+{	cursor:default;
+    float:left;
+    margin-left:10px;
+}
+
+.tools
+{
+    height:38px;
+    width:38px;
+    outline:gray solid thin;
+    background-repeat:no-repeat;
+    background-position:center;
+    list-style-type: none;
+}
+
+.selected
+{
+    height:38px;
+    width:38px;
+    outline:red solid thin;
+}
+
+.pencil
+{
+    background-image:url(../image/pencil.png);
+}
+
+.circle
+{
+    background-image:url(../image/circle.png);
+}
+
+.rect
+{
+    background-image:url(../image/rectangle.png);
+}
+
+.cursor
+{
+    background-image:url(../image/cursor.png);
+}
+
+.eraser
+{
+    background-image:url(../image/eraser.png);
+}
+
+.line
+{
+    background-image:url(../image/line.png);
+}
+
+.brush
+{
+    background-image:url(../image/brush.png);
+}
+.clearAll
+{
+    background-image:url(../image/clear.png);
+}
